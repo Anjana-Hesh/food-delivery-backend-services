@@ -1,0 +1,12 @@
+[submodule "menu-service"]
+	path = menu-service
+	url = https://github.com/Anjana-Hesh/menu-service-food-delivery.git
+[submodule "order-service"]
+	path = order-service
+	url = https://github.com/Anjana-Hesh/order-service-food-delivery.git
+[submodule "delivery-service"]
+	path = delivery-service
+	url = https://github.com/Anjana-Hesh/delivery-service-food-delivery.git
+[submodule "payment-service"]
+	path = payment-service
+	url = https://github.com/Anjana-Hesh/payment-service-food-delivery.git
