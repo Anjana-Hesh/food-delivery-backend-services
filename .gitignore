@@ -1,0 +1,11 @@
+target/
+.idea/
+*.class
+*.jar
+*.war
+*.zip
+.classpath
+.project
+.settings/
+.mvn/wrapper/maven-wrapper.jar
+
