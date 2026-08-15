@@ -4,7 +4,7 @@
 * **Student Name:** U. Anjana Heshan
 * **Student ID:** [Your IJSE Student ID Here]
 * **Module:** ITS 2130 - Enterprise Cloud Architecture (ECA)
-* **GCP Project ID:** [Your GCP Project ID Here]
+* **GCP Project ID:** intense-slice-505613-d3
 
 ## Project Description
 This repository contains the core business logic microservices of the ByteBites Enterprise Food Delivery Application. It includes menu management, order placement, order dispatch and delivery tracking, and payment processing.
