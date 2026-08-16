@@ -7,7 +7,11 @@ module.exports = {
       instances: 1,
       autorestart: true,
       watch: false,
-      max_memory_restart: "500M"
+      max_memory_restart: "500M",
+      error_file: "./logs/menu-service-error.log",
+      out_file: "./logs/menu-service-out.log",
+      log_date_format: "YYYY-MM-DD HH:mm:ss",
+      merge_logs: true
     },
     {
       name: "order-service",
@@ -16,7 +20,11 @@ module.exports = {
       instances: 1,
       autorestart: true,
       watch: false,
-      max_memory_restart: "500M"
+      max_memory_restart: "500M",
+      error_file: "./logs/order-service-error.log",
+      out_file: "./logs/order-service-out.log",
+      log_date_format: "YYYY-MM-DD HH:mm:ss",
+      merge_logs: true
     },
     {
       name: "delivery-service",
@@ -25,7 +33,11 @@ module.exports = {
       instances: 1,
       autorestart: true,
       watch: false,
-      max_memory_restart: "500M"
+      max_memory_restart: "500M",
+      error_file: "./logs/delivery-service-error.log",
+      out_file: "./logs/delivery-service-out.log",
+      log_date_format: "YYYY-MM-DD HH:mm:ss",
+      merge_logs: true
     },
     {
       name: "payment-service",
@@ -34,7 +46,11 @@ module.exports = {
       instances: 1,
       autorestart: true,
       watch: false,
-      max_memory_restart: "500M"
+      max_memory_restart: "500M",
+      error_file: "./logs/payment-service-error.log",
+      out_file: "./logs/payment-service-out.log",
+      log_date_format: "YYYY-MM-DD HH:mm:ss",
+      merge_logs: true
     }
   ]
 };
